@@ -57,4 +57,4 @@ class Personality:
             raise ValueError("Номер телефона не должен превышать 11 цифр")
 
     def __str__(self):
-        return " ".join((self.last_name, self.last_name, self.middle_name, self.birthdate, self.telephone, self.gender))
+        return " ".join((self.last_name, self.first_name, self.middle_name, self.birthdate, self.telephone, self.gender))
