@@ -45,7 +45,7 @@ class Personality:
         if not middle_name.isalpha():
             raise ValueError("Отчество должно состоять только из букв")
         if not last_name.isalpha():
-            raise ValueError("Фамилия должно состоять только из букв")
+            raise ValueError("Фамилия должна состоять только из букв")
 
     @staticmethod
     def __is_telephone(telephone: str):
